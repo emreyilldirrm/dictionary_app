@@ -1,22 +1,26 @@
-# Sözlük Uygulaması
+# Dictionary App
 
-Bu Flutter uygulaması, SQLite veritabanını kullanarak bir sözlük oluşturmayı amaçlar. Kullanıcı, sözlükteki kelimeleri görebilir, arayabilir ve filtreleyebilir.
+This Flutter application aims to create a dictionary using an SQLite database. Users can view, search, and filter words in the dictionary.
 
 ![d1](https://github.com/emreyilldirrm/dictionary_app/assets/149498114/f04de73b-3e1c-4b63-802b-4f9df9f87d7d)
 ![d2](https://github.com/emreyilldirrm/dictionary_app/assets/149498114/8afcb975-bbdf-4c79-93ed-63bdf931ce33)
 
 
 
-## Özellikler
+## Features
 
-1. **Veritabanı Bağlantısı:** Uygulama, SQLite veritabanına bağlanarak kelime verilerini saklar. Veritabanına erişim için `sqflite` paketi kullanılır.
+Database Connection: The application connects to an SQLite database to store word data. The sqflite package is used for database access.
 
-2. **Kelime Listesi:** Ana ekran, veritabanındaki tüm kelimeleri listeler. Her kelimenin yanında, kelimenin anlamını gösteren bir kısa açıklama bulunur.
+Word List: The main screen lists all the words in the database. Each word is accompanied by a brief description of its meaning.
 
-3. **Arama:** Kullanıcı, üst tarafta bulunan bir arama çubuğunu kullanarak kelime arayabilir. Arama sonuçları otomatik olarak güncellenir.
+Search: Users can search for words using a search bar at the top. Search results are automatically updated.
 
-## Kullanılan Paketler
+## Used Packages
 
-- `sqflite`: SQLite veritabanına erişim için kullanılır.
-- `flutter_bloc`: Uygulama durum yönetimi için kullanılır.
-- `provider`: Durum yönetimini destekler.
+sqflite: Used for accessing SQLite database.
+flutter_bloc: Used for application state management.
+provider: Supports state management.
+
+
+
+
